@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* :root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+} */
+.custom-popup {
+  background: linear-gradient(135deg, #f6d365, #fda085);
+  border-radius: 20px;
+  color: white;
+}
+
+.custom-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+}
+
+.custom-text {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.custom-button {
+  background-color: #ff7e5f;
+  color: white;
+  font-size: 16px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.custom-button:hover {
+  background-color: #fd5e53;
+}
+
